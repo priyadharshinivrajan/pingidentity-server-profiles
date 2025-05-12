@@ -28,8 +28,6 @@ jobs:
   build:
     name: Build and deploy PingFederate to EKS
     runs-on: ubuntu-latest
-    env: 
-      AWS_REGION: us-east-1  
 
     steps:
 
